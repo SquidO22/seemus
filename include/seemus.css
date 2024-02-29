@@ -1,13 +1,32 @@
+/* Keep the original background color */
 body {
-    background-color: violet;
-  }
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
+  background-color: violet;
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Change font to Comic Sans */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style headings */
+h1, h2, h3 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style paragraphs */
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Change font to Comic Sans */
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
